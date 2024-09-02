@@ -1,7 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Ry - Developer Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            filter: blur(8px);
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            display: inline-block;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 250px;
+            margin: 10px 0;
+        }
+
+        .widgets {
+            margin: 20px 0;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. - Jamesry96</p>
+    <div class="background"></div>
+    <div class="content">
+        <div class="container">
+            <h1>James Ry</h1>
+            <p>Welcome to my developer profile site!</p>
+            <p>Check out my <a href="https://github.com/jamesry96">GitHub</a> and <a href="https://www.linkedin.com/in/jamesry96">LinkedIn</a>.</p>
+
+            <div class="widgets">
+                <img src="https://github-readme-stats.vercel.app/api?username=jamesry96&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="James Ry's GitHub Stats"/>
+
+                <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jamesry96&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="James Ry's Top Languages"/>
+
+                <img src="https://myreadme.vercel.app/api/embed/jamesry96?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="James Ry's GitHub All Stats"/>
+
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=jamesry96&theme=tokyonight" alt="James Ry's Streak Stats"/>
+
+                <a href="https://github.com/jamesry96/some-repo">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jamesry96&repo=some-repo" alt="James Ry's Some Repo"/>
+                </a>
+                
+                <a href="https://github.com/jamesry96/another-repo">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jamesry96&repo=another-repo" alt="James Ry's Another Repo"/>
+                </a>
+
+                <img src="https://github-profile-trophy.vercel.app/?username=jamesry96&theme=juicyfresh&no-bg=true" alt="James Ry's GitHub Trophy"/>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
